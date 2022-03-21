@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="">
+    <header class="header">
+    </header>
+
+    <main class="container">
+        <div class="pokedex">
+            <div class="leftSide">
+                <div class="buttonBig">
+                    <div class="buttonBig-center">
+                        <div class="buttonBig-center_reflex"></div>
+                    </div>
+                    <div class="buttonsSmall">
+                        <div class="buttonSmallRed">
+                            <div class="buttonSmallRed_reflex"></div>
+                        </div>
+                        <div class="buttonSmallYellow">
+                            <div class="buttonSmallYellow_reflex"></div>
+                        </div>
+                        <div class="buttonSmallGreen">
+                            <div class="buttonSmallGreen_reflex"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="containerImage">
+                    <div id="doubleButtons">
+                        <div class="buttonRed1"></div>
+                        <div class="buttonRed2"></div>
+                    </div>
+                    <div id="imgPokemon">
+                        <div id="imgPokemon--img"></div>
+                    </div>
+                    <div id="basicData">
+                        <div class="basicData-button"></div>
+                        <div class="basicData-name">
+                            <p id="namePokemon"></p>
+                        </div>
+                        <div class="basicData-options">
+                        </div>
+                    </div>
+                </div>
+                <div class="controls">
+                    <div class="joystickSombra"></div>
+                    <div class="joystick"></div>
+                    <div class="buttonsExec">
+                        <button class="play" onclick="searchPokemon()">
+                            SEARCH
+                        </button>
+                        <button class="reset" onclick="clearData()" >CLEAN</button>
+                    </div>
+                    <input type="text" id="inputName" placeholder="Pokemon" />
+                    <div id="cross">
+                        <div id="leftcross">
+                            <div id="leftT"></div>
+                        </div>
+                        <div id="topcross">
+                            <div id="upT"></div>
+                        </div>
+                        <div id="rightcross">
+                            <div id="rightT"></div>
+                        </div>
+                        <div id="midcross">
+                            <div id="midCircle"></div>
+                        </div>
+                        <div id="botcross">
+                            <div id="downT"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightSide">
+                <div class="curve1"></div>
+                <div class="containerRightSide">
+                    <div class="dataPokemon">
+                       <div class="typePokemon">
+                           <p id="typePokemon-p"></p>
+                           <div id="typePokemon-type"></div>
+                       </div>
+                       <div class="stats">
+                       </div>
+                    </div>
+                    <div class="teclado">
+                        <div class="containerTecla1">
+                            <div class="tecla"></div>
+                            <div class="tecla"></div>
+                            <div class="tecla"></div>
+                            <div class="tecla"></div>
+                            <div class="tecla"></div>
+                        </div>
+                        <div class="containerTecla1">
+                            <div class="tecla"></div>
+                            <div class="tecla"></div>
+                            <div class="tecla"></div>
+                            <div class="tecla"></div>
+                            <div class="tecla"></div>
+                        </div>
+                    </div>
+                    <div class="doubleButtonBlack">
+                        <div class="buttonBlack"></div>
+                        <div class="buttonBlack"></div>
+                    </div>
+                    <div class="containerButtonCircle">
+                        <div class="buttonsR1">
+                            <div class="buttonR1"></div>
+                            <div class="buttonR1"></div>
+                        </div>
+                        <div class="containerCircle">
+                            <div class="circle3"></div>
+                        </div>
+                    </div>
+                    <div class="buttonsOut">
+                        <div class="out1">
+                            <p id="textWeight"></p>
+                            <p id="weight"></p>
+                        </div>
+                        <div class="out2">
+                            <p id="textHeight"></p>
+                            <p id="height"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="query.js"></script>
+</body>
+</html>
